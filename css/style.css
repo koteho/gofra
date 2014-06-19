@@ -1,0 +1,86 @@
+body {
+    font-family: "Helvetica Neue", Helvetica;
+}
+#gofra-bags {
+    background: url('../img/img/eko bags.jpg') center -1px no-repeat;
+    width: 1278px;
+    height:737px;
+    margin: 0 auto;
+}
+#partners {
+    background: url('../img/img/fon%20gofra%20whit.jpg') center -1px no-repeat;
+    width: 1278px;
+    height:902px;
+    margin: 0 auto;
+    padding-top: 11px;
+}
+#ropes {
+    width: 1278px;
+    height:737px;
+    margin: 0 auto;
+}
+.logo {
+    background: url('../img/img/logo_colirton.png') no-repeat;
+    width: 256px;
+    height: 64px;
+}
+.address {
+    text-align: right;
+    font-size: 16px;
+}
+.cross-line {
+    background: url('../img/img/cross line.png') no-repeat;
+    width: 1278px;
+    height: 54px;
+    margin-top: -22px;
+}
+.order-button {
+    background: url('../img/img/knopka zakaza.png') no-repeat;
+    width: 157px;
+    height: 34px;
+    text-align: center;
+    color: white;
+    padding-top: 2px;
+    float: right;
+    margin-top: -27px;
+    margin-right: 160px;
+}
+.header, .sub-header {
+    text-align: center;
+    clear:both
+}
+.header {
+    font-size: 34px;
+    font-weight: bold;
+}
+.sub-header {
+    font-size: 34px;
+    font-weight: bold;
+    color: darkred;
+}
+.centered-row {
+    text-align: center;
+}
+.benefits-item {
+    display: inline-block;
+    vertical-align: top;
+}
+.crafts-header {
+    text-align: center;
+}
+.crafts-row {
+    text-align: center;
+}
+.crafts-item {
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    padding: 0 60px;
+}
+.crafts-item-header {
+    padding: 0 25px;
+    font-size: 18px;
+}
+.crafts-item-description {
+    clear: both;
+}

@@ -14,11 +14,6 @@ body {
     margin: 0 auto;
     padding-top: 11px;
 }
-#ropes {
-    width: 1278px;
-    height:737px;
-    margin: 0 auto;
-}
 .logo {
     background: url('../img/img/logo_colirton.png') no-repeat;
     width: 256px;
@@ -83,4 +78,59 @@ body {
 }
 .crafts-item-description {
     clear: both;
+}
+#ropes {
+    width: 1278px;
+    height:737px;
+    margin: 0 auto;
+    position: relative;
+}
+.ropes-header {
+    text-align: center;
+}
+#ropes ul {
+    position: absolute;
+    left: 50%;
+    float: left;
+    clear: both;
+    list-style: none;
+    padding: 0;
+}
+#ropes ul li {
+    margin-left: -50%;
+    float: left;
+    clear:both;
+}
+#infographic {
+    background: url('../img/img/fon_light.jpg') center -1px no-repeat;
+    width: 1278px;
+    height:654px;
+    margin: 0 auto;
+    position: relative;
+}
+.infographic-row {
+    text-align: center;
+}
+.infographic-item {
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+    padding-top: 50px;
+}
+.infographic-description {
+    font-size: 20px;
+    text-align: center;
+}
+#print {
+    background: url('../img/img/fon%20gofra%20whit.jpg') center -1px no-repeat;
+    width: 1278px;
+    height:737px;
+    margin: 0 auto;
+    position: relative;
+}
+.print-row {
+    text-align: center;
+}
+.print-item {
+    vertical-
 }

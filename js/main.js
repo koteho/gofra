@@ -13,7 +13,7 @@ $(document).ready(function () {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-    $('.vertical-form').on('submit', function(e){
+    $('.vertical-form,.horizontal-form').on('submit', function(e){
         e.preventDefault();
         alert('Заявка отправлена');
         $.ajax({

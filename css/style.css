@@ -1,9 +1,10 @@
 body {
     font-family: "Helvetica Neue", Helvetica;
 }
+
 #navigation-bar {
     width: 1278px;
-    height:45px;
+    height: 45px;
     left: 50%;
     margin-left: -639px;
     background-color: #fecf97;
@@ -12,25 +13,30 @@ body {
     text-align: center;
     z-index: 100;
 }
+
 #navigation-bar ul {
     list-style: none;
     padding: 0;
     margin-top: 10px;
 }
+
 #navigation-bar li {
-    padding:10px;
+    padding: 10px;
     display: inline;
 }
+
 #navigation-bar li a {
     color: #000000;
 }
+
 #gofra-bags {
     background: url('../img/img/eko bags.jpg') center -1px no-repeat;
     width: 1278px;
-    height:737px;
+    height: 737px;
     margin: 45px auto 0;
     position: relative;
 }
+
 #gofra-bags .vertical-form {
     position: absolute;
     right: 10%;
@@ -40,28 +46,35 @@ body {
     -webkit-box-shadow: 2px 2px 10px 0 #7A7A7A;
     box-shadow: 2px 2px 10px 0 #7A7A7A;
 }
+
 #gofra-bags .vertical-form input {
 }
+
 .form-header {
     text-align: center;
 }
+
 .form-header span {
     color: rgb(28, 123, 1);
 }
+
 .form-description {
     font-size: 10px;
     text-align: center;
 }
+
 #partners {
     background: url('../img/img/fon%20gofra%20whit.jpg') center -19px no-repeat;
     width: 1278px;
-    height:902px;
+    height: 902px;
     margin: 0 auto;
     overflow: hidden;
 }
+
 #partners .header {
     margin-top: 30px;
 }
+
 #partners .horizontal-form {
     width: 800px;
     margin: 40px auto 0;
@@ -72,22 +85,22 @@ body {
     box-shadow: 2px 2px 10px 0 #7A7A7A;
 }
 
-.logo {
-    background: url('../img/img/logo_colirton.png') no-repeat;
-    width: 256px;
-    height: 64px;
-}
-.address {
+
+
+#gofra-bags .address {
     text-align: right;
     font-size: 16px;
+    clear: both;
 }
+
 .cross-line {
     background: url('../img/img/cross line.png') no-repeat;
     width: 1278px;
     height: 54px;
     margin: -27px auto;
 }
-.order-button {
+
+#gofra-bags .order-button {
     background: url('../img/img/knopka zakaza.png') no-repeat;
     width: 157px;
     height: 34px;
@@ -96,80 +109,97 @@ body {
     padding-top: 2px;
     float: right;
     margin-top: -27px;
-    margin-right: 160px;
 }
+
 .header, .sub-header {
     text-align: center;
-    clear:both
+    clear: both
 }
+
 #gofra-bags .header {
     font-size: 34px;
     font-weight: bold;
 }
+
 .sub-header {
     font-size: 34px;
     font-weight: bold;
     color: rgb(28, 123, 1);
 }
+
 .centered-row {
     text-align: center;
 }
+
 #benefits .header {
     font-size: 22px;
     font-weight: normal;
     margin: 20px auto 25px;
     color: #808080;
 }
+
 #benefits .header .marked {
     color: rgb(28, 123, 1);
 }
+
 .benefits-item {
     margin: 0 68px 30px;
     display: inline-block;
     vertical-align: top;
 }
+
 .benefits-item-header {
     font-weight: bold;
     font-size: 20px;
 }
+
 .benefits-item-description {
     font-size: 20px;
     color: #808080;
 }
+
 .crafts-header {
     text-align: center;
     margin-bottom: 80px;
 }
+
 #crafts {
     padding-bottom: 80px;
 }
+
 .crafts-row {
     text-align: center;
 }
+
 .crafts-item {
     display: inline-block;
     width: 400px;
     vertical-align: top;
     padding: 0 60px;
 }
+
 .crafts-item-header {
     padding: 0 25px;
     font-size: 18px;
     color: #808080;
 }
+
 .crafts-item-description {
     clear: both;
 }
+
 #ropes {
     width: 1278px;
-    height:655px;
+    height: 655px;
     margin: 0 auto;
     position: relative;
 }
+
 .ropes-header {
     text-align: center;
     margin-bottom: 50px;
 }
+
 #ropes ul {
     position: absolute;
     left: 50%;
@@ -178,61 +208,73 @@ body {
     list-style: none;
     padding: 0;
 }
+
 #ropes ul li {
     margin-left: -50%;
     margin-bottom: 20px;
     float: left;
-    clear:both;
+    clear: both;
 }
+
 #infographic {
     background: url('../img/img/fon_light.jpg') center bottom no-repeat;
     width: 1278px;
-    height:480px;
+    height: 480px;
     margin: 0 auto;
     position: relative;
 }
+
 .infographic-row {
     text-align: center;
 }
+
 .infographic-item {
     display: inline-block;
     width: 350px;
     vertical-align: top;
     padding-top: 50px;
 }
+
 .infographic-description {
     font-size: 20px;
     text-align: center;
 }
+
 #print {
     width: 1278px;
-    height:737px;
+    height: 737px;
     margin: 0 auto;
     position: relative;
 }
+
 .print-row {
     text-align: center;
 }
+
 .print-item {
     vertical-align: top;
     display: inline-block;
     padding: 20px;
 }
+
 .print-item-description {
     padding-top: 20px;
     font-size: 18px;
 }
+
 .vertical-form input {
     margin: 10px auto 15px;
     display: block;
     border-radius: 5px;
     padding: 5px;
 }
+
 .horizontal-form input {
     margin: 10px 10px 15px;
     border-radius: 5px;
     padding: 5px;
 }
+
 .vertical-form input[type=submit] {
     margin: 10px auto;
     width: 80%;
@@ -244,6 +286,7 @@ body {
     background-image: -o-linear-gradient(top, #88ea49, #8c8c8c);
     background-image: linear-gradient(to bottom, #88ea49, #8c8c8c);
 }
+
 .horizontal-form input[type=submit] {
     margin: 10px auto;
     display: block;
@@ -255,12 +298,30 @@ body {
     background-image: -o-linear-gradient(top, #88ea49, #8c8c8c);
     background-image: linear-gradient(to bottom, #88ea49, #8c8c8c);
 }
+
+
+
+/*additional classes*/
 .grey-header {
     color: #808080;
     font-size: 20px;
     clear: both;
     text-align: center;
 }
+
 .marked {
     color: rgb(28, 123, 1);
+}
+
+.grey-text-16 {
+    font-size: 16px;
+    color: #808080;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
 }

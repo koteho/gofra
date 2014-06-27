@@ -1,0 +1,124 @@
+
+/* --------------------------------*/
+/* 0px-... */
+.logo {
+    background: url('../img/img/logo_colirton.png') no-repeat;
+    width: 256px;
+    height: 64px;
+}
+/*footer*/
+footer {
+    max-width: 1278px;
+    margin: 0 auto;
+    border-top: #808080 1px solid;
+}
+.address {
+    font-size: 16px;
+    clear: both;
+}
+.footer-info .images {
+    text-align: center;
+    display: inline-block;
+}
+.footer-info .images a {
+    text-decoration: none;
+}
+/* 0px-320px */
+@media only screen
+and (max-width : 320px) {
+
+}
+/* 0px-480px */
+@media only screen
+and (max-width : 480px) {
+    .footer-info .logo {
+        display: none;
+    }
+}
+/* 480px-768px */
+@media only screen
+and (min-width : 480px)
+and (max-width : 768px) {
+
+}
+/* 0px-768px */
+@media only screen
+and (max-width : 768px) {
+    /* footer */
+    .footer-info .order-button {
+        font-size: 16px;
+        color: #808080;
+        margin-top: 10px;
+    }
+    .footer-info > div {
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+    }
+    .footer-info .logo {
+        background: url('../img/img/logo_colirton.png') no-repeat;
+        background-size: 70%;
+        position: absolute;
+        top: 0;
+        left:0;
+    }
+}
+/* 768px-... */
+@media only screen
+and (min-width : 769px) {
+    .footer-info {
+        text-align: center;
+        max-width: 930px;
+        margin: 27px auto 0;
+    }
+
+    .footer-info > div {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .footer-info .address {
+        text-align: right;
+    }
+    .footer-info .order-button {
+        background: url('../img/img/knopka zakaza.png') no-repeat;
+        width: 157px;
+        height: 34px;
+        text-align: center;
+        color: white;
+        padding-top: 2px;
+        float: right;
+        margin-top: -27px;
+    }
+}
+/* 768px-1024px */
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px) {
+    /* footer */
+    .footer-info .col-1,
+    .footer-info .col-3 {
+        width: 41%;
+    }
+    .footer-info .social {
+        width: 16%;
+    }
+
+}
+/* 0px-1024px */
+@media only screen
+and (max-width : 1024px) {
+
+}
+/* 1024px-... */
+@media only screen
+and (min-width : 1024px) {
+    /* footer */
+    .footer-info > div {
+        width: 33%;
+    }
+}
+@media only screen
+and (min-width : 1824px) {
+    /* Styles */
+}

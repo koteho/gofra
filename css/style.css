@@ -94,8 +94,8 @@ body {
 }
 
 .cross-line {
-    background: url('../img/img/cross line.png') no-repeat;
-    width: 1278px;
+    background: url('../img/img/cross line.png') center no-repeat;
+    max-width: 1278px;
     height: 54px;
     margin: -27px auto;
 }

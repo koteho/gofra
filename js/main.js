@@ -15,7 +15,10 @@ $(document).ready(function () {
     });
     $('.vertical-form,.horizontal-form').on('submit', function(e){
         e.preventDefault();
-        alert('Заявка отправлена');
+        $('.success-popup')
+            .fadeIn(500)
+            .delay(2000)
+            .fadeOut(500);
         $.ajax({
             type: 'POST',
             data: $(this).serialize(),

@@ -22,4 +22,7 @@ $(document).ready(function () {
             url: 'mail.php'
         });
     });
+    $('#gofra-bags .order-button').on('submit', function(e) {
+        e.preventDefault();
+    });
 });

@@ -25,7 +25,21 @@ $(document).ready(function () {
             url: 'mail.php'
         });
     });
-    $('#gofra-bags .order-button').on('submit', function(e) {
+    $('#gofra-bags .order-button').on('click', function(e) {
+        $('.form-extended')
+            .fadeIn(500);
+    });
+    $('.form-extended').on('submit', function(e) {
         e.preventDefault();
+        $(this).hide();
+        $('.success-popup')
+            .fadeIn(500)
+            .delay(2000)
+            .fadeOut(500);
+        $.ajax({
+            type: 'POST',
+            data: $(this).serialize(),
+            url: 'mail-extended.php'
+        });
     });
 });

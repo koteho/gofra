@@ -79,46 +79,46 @@
         <div class="subheader centered">Контактная информация</div>
         <div class="form-row">
             <label>Введите имя:</label>
-            <input type="text">
+            <input type="text" name="name" required>
         </div>
         <div class="form-row">
             <label>Телефон:</label>
-            <input type="text">
+            <input type="text" name="phone">
         </div>
         <div class="form-row">
             <label>E-mail:</label>
-            <input type="text">
+            <input type="text" name="mail">
         </div>
         <div class="subheader centered" style="margin-top:18px;">Характеристики пакета</div>
         <div class="form-row">
             <label>Габариты, мм:</label>
-            <input type="text">
+            <input type="text" name="size">
         </div>
         <div class="form-row">
             <label>Материал:</label>
-            <select>
-                <option value="0">Бурый крафт</option>
-                <option value="1">Белый крафт</option>
+            <select name="material">
+                <option value="Бурый крафт">Бурый крафт</option>
+                <option value="Белый крафт">Белый крафт</option>
             </select>
         </div>
         <div class="form-row">
             <label>Цветность печати:</label>
-            <input type="text">
+            <input type="text" name="color">
         </div>
         <div class="form-row">
             <label>Материал ручки:</label>
             <select>
-                <option value="0">Льняная веревка</option>
-                <option value="1">Джутовая веревка</option>
-                <option value="2">Пеньковая веревка</option>
-                <option value="3">Бумажная верёвка</option>
+                <option value="Льняная веревка">Льняная веревка</option>
+                <option value="Джутовая веревка">Джутовая веревка</option>
+                <option value="Пеньковая веревка">Пеньковая веревка</option>
+                <option value="Бумажная верёвка">Бумажная верёвка</option>
             </select>
         </div>
-        <div class="form-row">
-            <label for="">Прикрепить макет:</label>
-            <input type="file" name="attachment" style="display:none">
-            <button class="file">Загрузить</button>
-        </div>
+        <!--<div class="form-row">-->
+            <!--<label for="">Прикрепить макет:</label>-->
+            <!--<input type="file" name="attachment" style="display:none">-->
+            <!--<button class="file">Загрузить</button>-->
+        <!--</div>-->
         <div class="description">
             Если Вы не уверены в заполнении отдельных полей, Вы можете оставить их пустыми
         </div>

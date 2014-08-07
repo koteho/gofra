@@ -31,6 +31,7 @@ $(document).ready(function () {
     });
     $('.form-extended').on('submit', function(e) {
         e.preventDefault();
+
         $(this).hide();
         $('.success-popup')
             .fadeIn(500)
@@ -41,5 +42,6 @@ $(document).ready(function () {
             data: $(this).serialize(),
             url: 'mail-extended.php'
         });
+        this.reset();
     });
 });
